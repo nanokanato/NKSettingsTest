@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>アプリ詳細</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>Settings.bundleを使用したアプリ固有の設定画面の追加とiOS8からのアプリ画面への遷移を検証するためのアプリです。</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>アプリ設定</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>User Nameで指定した値はアプリ起動後のアラートのタイトルに利用されます。</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>Title</key>
+			<string>User Name</string>
+			<key>Key</key>
+			<string>SettingsRootTextFieldUserName</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>アプリ情報</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>Copyright © 2015 nanoka____ All Rights Reserved.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>DefaultValue</key>
+			<string>NKApp</string>
+			<key>Title</key>
+			<string>App Name</string>
+			<key>Key</key>
+			<string>SettingsRootTitleAppName</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>DefaultValue</key>
+			<string>1</string>
+			<key>Title</key>
+			<string>Build</string>
+			<key>Key</key>
+			<string>SettingsRootTitleBuild</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>DefaultValue</key>
+			<string>1.0.0</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Key</key>
+			<string>SettingsRootTitleVersion</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Developer</string>
+			<key>File</key>
+			<string>Developer</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
